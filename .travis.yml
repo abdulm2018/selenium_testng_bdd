@@ -25,7 +25,9 @@ install:
     mvn install 
 
 
-
+cache:
+    directories:
+        - ~/.m2/repository
 
 
 
