@@ -16,7 +16,7 @@ before_install:
 - sudo apt-get update
 - sudo apt-get install dbus-x11
 - export DISPLAY=:99.0
-- wget https://chromedriver.storage.googleapis.com/87.0.4280.20/chromedriver_linux64.zip
+- wget https://chromedriver.storage.googleapis.com/86.0.4240.22/chromedriver_linux64.zip
 - unzip chromedriver_linux64.zip
 - sudo cp chromedriver /usr/bin
 
